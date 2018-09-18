@@ -15,9 +15,9 @@ React Native PayPal wrapper for iOS and Android
 
 Extra steps for iOS 🙄 [see here](https://github.com/paypal/PayPal-ios-SDK#with-or-without-cocoapods)
 
-**NOTE:** if you are using cocoapods 
+**NOTE:** 
+if you are using cocoapods and need "Pay with card" support. please add:
 
-please add 
 ```
 pod 'CardIO', '~> 5.4.1'
 ```
